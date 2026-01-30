@@ -1,133 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Aswin Krishna T P - Resume</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            line-height: 1.6;
-            color: #000;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aswin Krishna T P | Resume</title>
 
-        h1 {
-            text-align: center;
-            margin-bottom: 5px;
-        }
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        .contact {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
 
-        .section-title {
-            font-weight: bold;
-            margin-top: 25px;
-            margin-bottom: 5px;
-        }
+    body {
+      background: #f4f7fb;
+      color: #222;
+      line-height: 1.7;
+    }
 
-        ul {
-            margin-top: 5px;
-        }
-    </style>
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    /* Header */
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 25px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .header p {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .header a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .header a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section */
+
+    .section {
+      margin-bottom: 35px;
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #1e40af;
+      border-left: 5px solid #2563eb;
+      padding-left: 12px;
+    }
+
+    .section p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    /* Experience */
+
+    .job-title {
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      color: #444;
+    }
+
+    /* Projects */
+
+    .project {
+      margin-bottom: 18px;
+    }
+
+    .project span {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Skills */
+
+    .skills p {
+      background: #f1f5ff;
+      padding: 10px 15px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Mobile */
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 25px;
+        margin: 20px;
+      }
+
+      .header h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+  </style>
 </head>
+
 <body>
 
-<h1>ASWIN KRISHNA T P</h1>
+  <div class="container">
 
-<div class="contact">
-    aswinthrikkazhippuram@gmail.com | +91 9495723256 | Palakkad, Kerala, India<br>
-    https://www.linkedin.com/in/aswin-krishna-tp-ba17722bb/ |
-    https://github.com/Aswintkpm1803
-</div>
+    <!-- HEADER -->
 
-<div class="section-title">PROFESSIONAL SUMMARY</div>
+    <div class="header">
+      <h1>Aswin Krishna T P</h1>
 
-<p>
-MSc Computer Science (Data Analytics) student with hands-on experience in training, fine-tuning, and evaluating
-ML/NLP models using Python, PyTorch, and TensorFlow. Skilled in data preprocessing, experimentation, and building
-end-to-end AI prototypes. Strong fundamentals in machine learning, excellent documentation habits, and quick
-learner of new AI techniques. Looking to support real-world AI/ML development and research.
-</p>
+      <p>
+        aswinthrikkazhippuram@gmail.com |
+        +91 9495723256 |
+        Palakkad, Kerala, India
+      </p>
 
-<div class="section-title">EDUCATION</div>
+      <p>
+        <a href="https://www.linkedin.com/in/aswin-krishna-tp-ba17722bb/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Aswintkpm1803" target="_blank">GitHub</a>
+      </p>
+    </div>
 
-<p>
-M.Sc. Computer Science (Data Analytics) - Digital University Kerala | CGPA: 9.3 | 2024-Present<br>
-B.Sc. in Physics, Math & Electronics - Christ University | 77% | 2021-2024
-</p>
+    <!-- SUMMARY -->
 
-<div class="section-title">EXPERIENCE</div>
+    <div class="section">
+      <h2>Professional Summary</h2>
 
-<p>
-<strong>R&amp;D Intern - AI &amp; Data Science, Centre for Intelligent Government Project, Digital University Kerala | July 2025 – Present</strong>
-</p>
+      <p>
+        MSc Computer Science (Data Analytics) student with hands-on experience in training, fine-tuning, and evaluating
+        ML/NLP models using Python, PyTorch, and TensorFlow. Skilled in data preprocessing, experimentation, and building
+        end-to-end AI prototypes. Strong fundamentals in machine learning, excellent documentation habits, and quick
+        learner of new AI techniques. Looking to support real-world AI/ML development and research.
+      </p>
+    </div>
 
-<ul>
-    <li>Fine-tuned LayoutLM for structured metadata extraction, designing experiments and validating outputs to ensure high-quality, reliable model inputs for downstream decision systems.</li>
-    <li>Built and deployed a semantic search system using Elasticsearch, analyzing retrieval behaviour and improving relevance logic to support smarter, data-driven information access.</li>
-    <li>Performed data preprocessing, labeling, and validation workflows to enhance data accuracy and support scalable model experimentation across analytics initiatives.</li>
-</ul>
+    <!-- EDUCATION -->
 
-<div class="section-title">PROJECTS</div>
+    <div class="section">
+      <h2>Education</h2>
 
-<p>
-<strong>Research Paper Explorer (FastAPI, PostgreSQL, LangChain, FAISS, Ollama Mistral, React + Vite)</strong> – Full-stack research
-assistant recommending personalized papers and enabling semantic querying using LLM-powered retrieval. Built
-FAISS indexing, FastAPI backend, and integrated search + QA workflows.
-</p>
+      <p>
+        <strong>M.Sc. Computer Science (Data Analytics)</strong> – Digital University Kerala<br>
+        CGPA: 9.3 | 2024–Present
+      </p>
 
-<p>
-<strong>CycleGAN for Unpaired Image Translation (PyTorch)</strong> – Developed unpaired image-to-image translation pipeline
-using CycleGAN, implementing preprocessing, training loops, cycle-consistency logic, and evaluation using metrics
-from the original CycleGAN paper.
-</p>
+      <p>
+        <strong>B.Sc. Physics, Math & Electronics</strong> – Christ University<br>
+        77% | 2021–2024
+      </p>
+    </div>
 
-<p>
-<strong>Intelligent Job Matching System (Python, BeautifulSoup, KMeans, Streamlit)</strong> - Collected and cleaned job-market
-data, engineered features, built clustering models, and interpreted analytical patterns to improve accuracy and
-consistency of job-matching decisions.
-</p>
+    <!-- EXPERIENCE -->
 
-<div class="section-title">SKILLS</div>
+    <div class="section">
+      <h2>Experience</h2>
 
-<p>
-: Technical Skills: Python (Pandas, NumPy, Matplotlib, scikit-learn, TensorFlow, PyTorch), SQL, PostgreSQL, OOP, Data
-Structures &amp; Algorithms
-</p>
+      <p class="job-title">
+        R&amp;D Intern – AI &amp; Data Science<br>
+        Centre for Intelligent Government Project, Digital University Kerala (July 2025 – Present)
+      </p>
 
-<p>
-: Machine Learning &amp; AI: Data cleaning and preprocessing, exploratory data analysis, feature engineering, Regression
-and Classification, data pipelines, model evaluation, transformer models, NLP, LLM fine-tuning, Embedding, semantic
-search (FAISS, Elasticsearch), RAG systems, CycleGAN-based generative modelling
-</p>
+      <ul>
+        <li>Fine-tuned LayoutLM for structured metadata extraction and validated outputs for high-quality model inputs.</li>
+        <li>Built and deployed a semantic search system using Elasticsearch to improve retrieval relevance.</li>
+        <li>Performed data preprocessing, labeling, and validation to support scalable model experimentation.</li>
+      </ul>
+    </div>
 
-<p>
-: Tools &amp; Frameworks: VS Code, GitHub, Jupyter Notebook, Label Studio, LangChain, Hugging Face Transformers
-</p>
+    <!-- PROJECTS -->
 
-<p>
-: Soft skills: Analytical thinking, problem-solving, teamwork, communication, attention to detail, dedication,
-discipline, consistency, positive research mindset
-</p>
+    <div class="section">
+      <h2>Projects</h2>
 
-<div class="section-title">CERTIFICATES</div>
+      <div class="project">
+        <p>
+          <span>Research Paper Explorer</span> (FastAPI, PostgreSQL, LangChain, FAISS, Ollama Mistral, React + Vite)
+        </p>
 
-<p>
-Google Cloud Career Launchpad – Data Analytics Track, Google Cloud Learning Services (Jul 2025)<br>
-Google Cloud Career Launchpad – Computing Foundations Track, Google Cloud Learning Services (Oct 2025)
-</p>
+        <p>
+          Full-stack research assistant enabling personalized recommendations and LLM-powered semantic querying.
+        </p>
+      </div>
 
-<div class="section-title">AWARDS &amp; ACHIEVEMENTS</div>
+      <div class="project">
+        <p>
+          <span>CycleGAN for Unpaired Image Translation</span> (PyTorch)
+        </p>
 
-<p>
-1st Prize – Innovatex Hackathon (Tesseract OCR, RegEx) - Built AI-powered document processing system with OCR,
-Regex, and Flask backend.<br>
-1st Prize – Ideathon (Mozilla Responsible Computing Challenge) - Proposed Responsible AI and LLM inclusivity
-solutions.
-</p>
+        <p>
+          Developed unpaired image-to-image translation pipeline with preprocessing, training loops, and evaluation.
+        </p>
+      </div>
+
+      <div class="project">
+        <p>
+          <span>Intelligent Job Matching System</span> (Python, BeautifulSoup, KMeans, Streamlit)
+        </p>
+
+        <p>
+          Built clustering models and feature engineering pipelines to improve job-matching accuracy.
+        </p>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <div class="section skills">
+      <h2>Skills</h2>
+
+      <p>
+        <strong>Technical:</strong>
+        Python, Pandas, NumPy, Matplotlib, scikit-learn, TensorFlow, PyTorch, SQL, PostgreSQL, OOP, DSA
+      </p>
+
+      <p>
+        <strong>Machine Learning & AI:</strong>
+        Data preprocessing, EDA, feature engineering, NLP, LLM fine-tuning, embeddings, RAG, FAISS, Elasticsearch,
+        CycleGAN
+      </p>
+
+      <p>
+        <strong>Tools:</strong>
+        VS Code, GitHub, Jupyter Notebook, Label Studio, LangChain, Hugging Face Transformers
+      </p>
+
+      <p>
+        <strong>Soft Skills:</strong>
+        Analytical thinking, teamwork, communication, attention to detail, dedication, discipline
+      </p>
+    </div>
+
+    <!-- CERTIFICATES -->
+
+    <div class="section">
+      <h2>Certificates</h2>
+
+      <p>
+        Google Cloud Career Launchpad – Data Analytics Track (Jul 2025)
+      </p>
+
+      <p>
+        Google Cloud Career Launchpad – Computing Foundations Track (Oct 2025)
+      </p>
+    </div>
+
+    <!-- AWARDS -->
+
+    <div class="section">
+      <h2>Awards & Achievements</h2>
+
+      <p>
+        🏆 1st Prize – Innovatex Hackathon (OCR, RegEx, Flask Backend)
+      </p>
+
+      <p>
+        🏆 1st Prize – Ideathon (Mozilla Responsible Computing Challenge)
+      </p>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      © 2026 Aswin Krishna T P | Hosted on GitHub Pages
+    </div>
+
+  </div>
 
 </body>
 </html>
